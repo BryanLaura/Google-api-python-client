@@ -85,7 +85,7 @@
     "count-array-values": "1.2.1",
     "csp-parse": "0.0.2",
     "csv-parse": "4.14.2",
-    "csv-parser": "2.3.5",
+    "csv-parser": "3.0.0",
     "dedent": "0.7.0",
     "del": "4.1.1",
     "dependency-check": "4.1.0",
