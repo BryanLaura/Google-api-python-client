@@ -104,7 +104,7 @@
     "jest-slow-test-reporter": "1.0.0",
     "make-promises-safe": "5.1.0",
     "mime": "2.4.7",
-    "mock-express-response": "0.2.2",
+    "mock-express-response": "0.3.0",
     "nock": "13.0.4",
     "nodemon": "2.0.4",
     "npm-merge-driver-install": "2.0.0",
