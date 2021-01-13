@@ -116,7 +116,7 @@
     "robots-parser": "2.1.1",
     "standard": "14.3.4",
     "start-server-and-test": "1.11.7",
-    "supertest": "4.0.2",
+    "supertest": "6.0.1",
     "webpack-dev-middleware": "3.7.3",
     "website-scraper": "4.2.3"
   },
