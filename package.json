@@ -114,7 +114,7 @@
     "replace": "1.2.0",
     "revalidator": "0.3.1",
     "robots-parser": "2.1.1",
-    "standard": "14.3.4",
+    "standard": "16.0.3",
     "start-server-and-test": "1.11.7",
     "supertest": "6.0.1",
     "webpack-dev-middleware": "3.7.3",
