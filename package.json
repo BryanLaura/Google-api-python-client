@@ -105,7 +105,7 @@
     "make-promises-safe": "5.1.0",
     "mime": "2.5.0",
     "mock-express-response": "0.3.0",
-    "nock": "13.0.5",
+    "nock": "13.0.6",
     "nodemon": "2.0.7",
     "npm-merge-driver-install": "2.0.1",
     "object-hash": "2.1.1",
