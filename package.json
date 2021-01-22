@@ -70,7 +70,7 @@
     "style-loader": "2.0.0",
     "uuid": "8.3.2",
     "walk-sync": "2.2.0",
-    "webpack": "5.16.0",
+    "webpack": "5.17.0",
     "webpack-cli": "4.4.0"
   },
   "devDependencies": {
