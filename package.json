@@ -103,7 +103,7 @@
     "jest-silent-reporter": "0.4.0",
     "jest-slow-test-reporter": "1.0.0",
     "make-promises-safe": "5.1.0",
-    "mime": "2.5.0",
+    "mime": "2.5.2",
     "mock-express-response": "0.3.0",
     "nock": "13.0.7",
     "nodemon": "2.0.7",
