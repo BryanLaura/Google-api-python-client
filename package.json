@@ -110,7 +110,7 @@
     "npm-merge-driver-install": "2.0.1",
     "object-hash": "2.1.1",
     "pa11y-ci": "2.4.0",
-    "puppeteer": "5.5.0",
+    "puppeteer": "8.0.0",
     "replace": "1.2.0",
     "revalidator": "0.3.1",
     "robots-parser": "2.2.0",
