@@ -16,7 +16,7 @@ jobs:
 
     - name: Send Slack notification if repo is frozen
       if: ${{ env.FREEZE == 'true' }}
-      uses: rtCamp/action-slack-notify@e17352feaf9aee300bf0ebc1dfbf467d80438815
+      uses: rtCamp/action-slack-notify@28e8b353eabda5998a2e1203aed33c5999944779
       env:
         SLACK_WEBHOOK: ${{ secrets.DOCS_ALERTS_SLACK_WEBHOOK }}
         SLACK_USERNAME: docs-repo-sync
