@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@a81bbbf8298c0fa03ea29cdc473d45769f953675
+        uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
         with:
           ref: translations # check out the 'translations' branch
 
@@ -52,7 +52,7 @@ jobs:
         test-group: [content, meta, rendering, routing, unit, links-and-images]
     steps:
       - name: Check out repo
-        uses: actions/checkout@a81bbbf8298c0fa03ea29cdc473d45769f953675
+        uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
 
       - name: Setup node
         uses: actions/setup-node@56899e050abffc08c2b3b61f3ec6a79a9dc3223d
