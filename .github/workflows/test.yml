@@ -120,7 +120,7 @@ jobs:
           NODE_OPTIONS: "--max_old_space_size=4096"
 
       - name: Send Slack notification if workflow fails
-        uses: rtCamp/action-slack-notify@e17352feaf9aee300bf0ebc1dfbf467d80438815
+        uses: rtCamp/action-slack-notify@28e8b353eabda5998a2e1203aed33c5999944779
         if: failure() && github.ref == 'early-access'
         env:
           SLACK_WEBHOOK: ${{ secrets.DOCS_ALERTS_SLACK_WEBHOOK }}
