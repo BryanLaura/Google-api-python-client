@@ -60,7 +60,7 @@ jobs:
         branch: graphql-schema-update
     - if: ${{ failure() }}
       name: Delete remote branch (if previous steps failed)
-      uses: dawidd6/action-delete-branch@47743101a121ad657031e6704086271ca81b1911
+      uses: dawidd6/action-delete-branch@145cd9febe29b6d83e19682d4b95849b851f544c
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branches: graphql-schema-update
