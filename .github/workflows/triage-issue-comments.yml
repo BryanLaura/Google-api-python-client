@@ -39,7 +39,7 @@ jobs:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         add-labels: "triage"
     - name: Triage to project board
-      uses: rachmari/actions-add-new-issue-to-column@1a459ef92308ba7c9c9dc2fcdd72f232495574a9
+      uses: rachmari/actions-add-new-issue-to-column@87a35587968c6914f03f43441c73b79739c42ae0
       with:
         action-token: ${{ secrets.GITHUB_TOKEN }}
         project-url: "https://github.com/github/docs/projects/1"
