@@ -18,7 +18,7 @@ jobs:
         echo 'The repo is currently frozen! Exiting this workflow.'
         exit 1 # prevents further steps from running
     - name: Checkout
-      uses: actions/checkout@a81bbbf8298c0fa03ea29cdc473d45769f953675
+      uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
     - name: npm ci
       run: npm ci
     - name: Run scripts
