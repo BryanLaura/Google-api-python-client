@@ -52,7 +52,7 @@ jobs:
 
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Cache node modules
-        uses: actions/cache@d1255ad9362389eac595a9ae406b8e8cb3331f16
+        uses: actions/cache@6bbe742add91b3db4abf110e742a967ec789958f
         with:
           path: ${{ steps.npm-cache.outputs.dir }}
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -98,7 +98,7 @@ jobs:
 
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Cache node modules
-        uses: actions/cache@d1255ad9362389eac595a9ae406b8e8cb3331f16
+        uses: actions/cache@6bbe742add91b3db4abf110e742a967ec789958f
         with:
           path: ${{ steps.npm-cache.outputs.dir }}
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
