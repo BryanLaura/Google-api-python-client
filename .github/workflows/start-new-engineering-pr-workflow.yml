@@ -12,7 +12,7 @@ jobs:
       DRAFT_COLUMN_ID: 10095775
       REGULAR_COLUMN_ID: 10095779
     steps:
-    - uses: actions/github-script@626af12fe9a53dc2972b48385e7fe7dec79145c9
+    - uses: actions/github-script@f891eff65186019cbb3f7190c4590bc0a1b76fbc
       continue-on-error: true
       with:
           github-token: ${{ secrets.DOCUBOT_FR_PROJECT_BOARD_WORKFLOWS_REPO_ORG_READ_SCOPES }}
