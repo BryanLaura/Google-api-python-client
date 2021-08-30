@@ -46,7 +46,7 @@ jobs:
         script/graphql/build-changelog-from-markdown.js
     - name: Create pull request
       id: create-pull-request
-      uses: peter-evans/create-pull-request@093c19114853387e422e2549d32d52796a198f3c
+      uses: peter-evans/create-pull-request@7380612b49221684fefa025244f2ef4008ae50ad
       with:
         # need to use a token with repo and workflow scopes for this step
         token: ${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
