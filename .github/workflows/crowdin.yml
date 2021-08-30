@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
 
       - name: Sync
-        uses: crowdin/github-action@e39093fd75daae7859c68eded4b43d42ec78d8ea
+        uses: crowdin/github-action@459f395850e8760b472551a2dec7c74fc2c3efcf
         with:
           upload_translations: false
           download_translations: true
