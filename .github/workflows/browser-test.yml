@@ -30,12 +30,12 @@ jobs:
 
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Install
-        uses: ianwalter/puppeteer@82dece5fa558ee68503fb574d0b0ce5b57be7797
+        uses: ianwalter/puppeteer@d50433d5b7595870c2726b2920ad9760987fcca2
         with:
           args: npm ci
 
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Test
-        uses: ianwalter/puppeteer@82dece5fa558ee68503fb574d0b0ce5b57be7797
+        uses: ianwalter/puppeteer@d50433d5b7595870c2726b2920ad9760987fcca2
         with:
           args: npm run browser-test
