@@ -39,7 +39,7 @@
     "express-rate-limit": "5.2.6",
     "flat": "5.0.2",
     "github-slugger": "1.3.0",
-    "got": "11.8.1",
+    "got": "11.8.2",
     "gray-matter": "4.0.3",
     "helmet": "4.4.1",
     "html-entities": "2.1.0",
