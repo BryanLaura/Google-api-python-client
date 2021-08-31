@@ -106,7 +106,7 @@
     "mime": "2.5.2",
     "mock-express-response": "0.3.0",
     "nock": "13.1.1",
-    "nodemon": "2.0.7",
+    "nodemon": "2.0.12",
     "npm-merge-driver-install": "2.0.1",
     "object-hash": "2.1.1",
     "pa11y-ci": "2.4.0",
