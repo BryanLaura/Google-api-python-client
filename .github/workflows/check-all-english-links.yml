@@ -28,7 +28,7 @@ jobs:
         fi
     - if: ${{ steps.check.outputs.continue == 'yes' }}
       name: Create issue from file
-      uses: peter-evans/create-issue-from-file@79145c3a93754ab7b094108d1b1f43c1442265f8
+      uses: peter-evans/create-issue-from-file@f3321872357c62a3984e3ef5f882dc14dd9bd42e
       with:
         token: ${{ secrets.DOCUBOT_FR_PROJECT_BOARD_WORKFLOWS_REPO_ORG_READ_SCOPES }}
         title: ${{ steps.check.outputs.title }}
