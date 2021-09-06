@@ -93,7 +93,7 @@
     "event-to-promise": "0.8.0",
     "graphql": "15.5.3",
     "heroku-client": "3.1.0",
-    "husky": "5.0.9",
+    "husky": "7.0.2",
     "image-size": "0.9.7",
     "japanese-characters": "1.1.0",
     "jest": "26.6.3",
