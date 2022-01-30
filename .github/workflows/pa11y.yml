@@ -16,7 +16,7 @@ jobs:
           echo "::set-output name=dir::$(npm config get cache)"
 
       - name: Cache node modules
-        uses: actions/cache@6bbe742add91b3db4abf110e742a967ec789958f
+        uses: actions/cache@35dd74a1a0674200316fa20212ce5036e0d9fc7f
         with:
           path: ${{ steps.npm-cache.outputs.dir }}
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
