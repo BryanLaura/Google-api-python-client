@@ -36,7 +36,7 @@ jobs:
       # Even if if doesn't do anything
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Check out repo
-        uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
+        uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
 
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Setup node
@@ -82,7 +82,7 @@ jobs:
       # Even if if doesn't do anything
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Check out repo
-        uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
+        uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
 
       - if: ${{ needs.see_if_should_skip.outputs.should_skip != 'true' }}
         name: Setup node

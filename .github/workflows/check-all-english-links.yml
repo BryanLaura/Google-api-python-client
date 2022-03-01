@@ -10,7 +10,7 @@ jobs:
     if: github.repository == 'github/docs-internal'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
+    - uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
     - name: npm ci
       run: npm ci
     - name: npm run build

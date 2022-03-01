@@ -32,7 +32,7 @@ jobs:
     steps:
 
     - name: Check out repo
-      uses: actions/checkout@afe4af09a72596f47d806ee5f8b2674ec07fdc73
+      uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
 
     - name: Sync repo to branch
       uses: repo-sync/github-sync@3832fe8e2be32372e1b3970bbae8e7079edeec88
