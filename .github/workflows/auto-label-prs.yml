@@ -7,6 +7,6 @@ jobs:
     if: github.repository == 'github/docs-internal'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/labeler@c49f5acd80c2e9eea6ba380b8209695d5bc237dc
+    - uses: actions/labeler@ed55e8ab1fa323b4a53afb55132c065aa7a9f8f4
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
