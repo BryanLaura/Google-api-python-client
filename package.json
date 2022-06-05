@@ -75,7 +75,7 @@
   },
   "devDependencies": {
     "ajv": "8.6.3",
-    "async": "3.2.1",
+    "async": "3.2.2",
     "await-sleep": "0.0.1",
     "aws-sdk": "2.858.0",
     "babel-eslint": "10.1.0",
