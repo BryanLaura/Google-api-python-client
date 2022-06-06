@@ -63,7 +63,7 @@
     "resolve-url-loader": "4.0.0",
     "rimraf": "3.0.2",
     "sass": "1.52.2",
-    "sass-loader": "12.1.0",
+    "sass-loader": "12.6.0",
     "search-with-your-keyboard": "2.0.0",
     "semver": "7.3.5",
     "slash": "3.0.0",
