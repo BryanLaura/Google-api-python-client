@@ -23,7 +23,7 @@ jobs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
       - id: skip_check
-        uses: fkirc/skip-duplicate-actions@f75dd6564bb646f95277dc8c3b80612e46a4a1ea
+        uses: fkirc/skip-duplicate-actions@d6ca7bba7b0d24cfe4b586a722a7ac64e6426a73
         with:
           cancel_others: 'false'
           github_token: ${{ github.token }}
