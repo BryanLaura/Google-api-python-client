@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
-    - uses: actions/setup-node@25316bbc1f10ac9d8798711f44914b1cf3c4e954
+    - uses: actions/setup-node@094c36e88e2a3ffdf4d3a5bb935088ac39a46acc
       with:
         node-version: 14.x
     - name: cache node modules
