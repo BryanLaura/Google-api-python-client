@@ -36,7 +36,7 @@
     "csurf": "1.11.0",
     "dotenv": "10.0.0",
     "express": "4.17.1",
-    "express-rate-limit": "5.3.0",
+    "express-rate-limit": "5.5.1",
     "flat": "5.0.2",
     "github-slugger": "1.4.0",
     "got": "11.8.5",
