@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
-      uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
+      uses: actions/checkout@cd7d8d697e10461458bc61a30d094dc601a8b017
     - uses: actions/setup-node@094c36e88e2a3ffdf4d3a5bb935088ac39a46acc
       with:
         node-version: 14.x
