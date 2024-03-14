@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
+        uses: actions/checkout@cd7d8d697e10461458bc61a30d094dc601a8b017
 
       - name: Sync
         uses: crowdin/github-action@6259628693db7fdaec0770d57d414ca0d64cfde8
