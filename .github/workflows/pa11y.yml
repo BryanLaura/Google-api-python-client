@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
+        uses: actions/checkout@163217dfcd28294438ea1c1c149cfaf66eec283e
 
       - name: Get npm cache directory
         id: npm-cache
