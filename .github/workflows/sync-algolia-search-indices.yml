@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: 14.x
     - name: cache node modules
-      uses: actions/cache@35dd74a1a0674200316fa20212ce5036e0d9fc7f
+      uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a
       with:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
