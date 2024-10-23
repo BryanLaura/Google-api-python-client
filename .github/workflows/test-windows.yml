@@ -19,7 +19,7 @@ jobs:
         test-group: [content, meta, rendering, routing, unit, links-and-images]
     steps:
       - name: Check out repo
-        uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Setup node
         uses: actions/setup-node@094c36e88e2a3ffdf4d3a5bb935088ac39a46acc
