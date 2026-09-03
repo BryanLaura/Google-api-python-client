@@ -30,7 +30,7 @@
     "connect-slashes": "1.4.0",
     "cookie-parser": "1.4.5",
     "copy-webpack-plugin": "9.0.1",
-    "cors": "2.8.5",
+    "cors": "2.8.6",
     "cross-env": "7.0.3",
     "css-loader": "6.7.1",
     "csurf": "1.11.0",
